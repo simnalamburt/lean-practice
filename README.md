@@ -1,17 +1,14 @@
-napkin-proofs
-========
-Lean4 formal proofs of "An Infinitely Large Napkin".
-
-> [!NOTE]
-> This project is still very incomplete.
+lean-practice
+=============
+Lean 4 proof snippets and experiments.
 
 ```bash
 # Build the project
 lake build
 
 # Type-check specific files in CLI
-lake env lean NapkinProofs/Obviouslib.lean
-lake env lean NapkinProofs/Chapter1.lean
+lake env lean LeanPractice/Obviouslib.lean
+lake env lean LeanPractice/Temp0.lean
 ```
 
 ### Learn Lean
@@ -61,9 +58,8 @@ lake env lean NapkinProofs/Chapter1.lean
 
 --------
 
-*napkin-community/proofs* is primarily distributed under the terms of the
-[GNU Affero General Public License v3.0] or any later version. See [COPYRIGHT]
-for details.
+*lean-practice* is primarily distributed under the terms of the [GNU Affero
+General Public License v3.0] or any later version. See [COPYRIGHT] for details.
 
 [GNU Affero General Public License v3.0]: LICENSE
 [COPYRIGHT]: COPYRIGHT

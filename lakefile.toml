@@ -1,9 +1,9 @@
-name = "napkin-proofs"
+name = "lean-practice"
 version = "0.1.0"
-defaultTargets = ["NapkinProofs"]
+defaultTargets = ["LeanPractice"]
 
 [[lean_lib]]
-name = "NapkinProofs"
+name = "LeanPractice"
 
 [[require]]
 name = "mathlib"

@@ -5,7 +5,7 @@ import Mathlib.Algebra.Group.Nat.Even
 import Mathlib.Tactic.Lemma
 import Mathlib.Analysis.InnerProductSpace.PiL2
 
-import NapkinProofs.Obviouslib
+import LeanPractice.Obviouslib
 
 
 /-
